@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+:root {
+    --azul-nuvem: #B8C5D0;
+    --azul-mar: #7FACD3;
+    --azul: #5E7DAF;
+    --marrom: #322B29;
+    --marrom-claro: #896025;
+    --marrom-medio: #715936;
+    --branco: #DCDCDC;
+    --preto: #090605;
+    --nude: #978670;
+    --creme-escuro: #5F3321;
+    --vinho: #531B05;
+
+
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    
+}
+
+ul li {
+    /* display: inline-block -  Esse cara pega o que está 
+    abaixo um do outro e coloca tudo na mesma linha*/
+    display: inline-block;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 5px 1.5em;
+    border: 1.7px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 3px;
+}
+
+ul li a:hover {
+    background-image: linear-gradient(var(--marrom-claro), var(--marrom-medio));
+    color: var(--marrom);
+
+}
+
+ul li.active a {
+    background-image: linear-gradient(var(--marrom-claro), var(--marrom-medio));
+    color: var(--marrom);
+}
+
+img {
+    margin: 10px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.main {
+    max-width: 1200px;
+    height: 100px;
+
+}
